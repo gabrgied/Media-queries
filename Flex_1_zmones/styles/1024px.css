@@ -1,0 +1,7 @@
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 42px;
+  }
+    div > div {
+      flex-basis: 25%;
+  }

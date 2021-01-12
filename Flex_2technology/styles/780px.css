@@ -1,0 +1,83 @@
+@media only screen and (max-width: 780px) {
+body {
+  width: 80%;
+  margin-top: 80px;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+h1:first-of-type {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.intro {
+  width: 100%;
+}
+
+.flex {
+  width: 100%;
+  display: block;
+}
+
+.vertical {
+  flex-direction: row;
+  width: 100%;
+}
+
+div > div {
+  margin: 0 auto;
+  text-align: right;
+  height: 250px;
+}
+
+.teambuilder, .karma {
+  margin-bottom: 0;
+  margin-top: 0;
+  display: inline-block;
+}
+
+.vertical {
+  height: auto;
+}
+
+.teambuilder {
+  margin-right: 25px;
+}
+
+.karma {
+  margin-left: 25px;
+}
+
+.supervisor, .calculator {
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.supervisor {
+    margin-bottom: 50px;
+}
+
+.calculator {
+    margin-top: 50px;
+}
+
+.icon {
+  height: auto;
+}
+
+img {
+  width: 50px;
+  position: relative;
+  left: -15px;
+  top: auto;
+}
+}

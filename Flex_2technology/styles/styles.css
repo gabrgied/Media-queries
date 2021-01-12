@@ -1,0 +1,118 @@
+body {
+  width: 1440px;
+  margin: 0 auto;
+  background:#f2f2f2;
+  font-size: 15px;
+  font-family:'Poppins', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+div > div {
+  background: white;
+  flex: 1;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+h1:first-of-type {
+  font-weight: normal;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: -10px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 30px;
+  text-align: justify;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  margin: 0 auto;
+  text-align: center;
+  width: 35%;
+  margin-bottom: 20px;
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+}
+
+.flex p {
+  width: 80%;
+  padding: 10px;
+  height: 75px;
+  text-align: justify;
+}
+
+.intro {
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  background: white;
+  background: #f2f2f2;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.supervisor {
+height: 300px;
+margin:50px;
+align-self: center;
+border-top: 7px solid hsl(180, 62%, 55%);
+border-radius: 7px;
+-webkit-box-shadow: 0px 15px 40px -16px rgba(0,0,0,0.85);
+box-shadow: 0px 15px 40px -16px rgba(0,0,0,0.85);
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #f0f0f0;
+}
+
+.teambuilder {
+margin-bottom: 25px;
+border-top: 7px solid hsl(0, 78%, 62%);
+border-radius: 7px;
+-webkit-box-shadow: 0px 15px 40px -16px rgba(0,0,0,0.85);
+box-shadow: 0px 15px 40px -16px rgba(0,0,0,0.85);
+}
+
+.karma {
+margin-top: 25px;
+border-top: 7px solid hsl(34, 97%, 64%);
+border-radius: 7px;
+-webkit-box-shadow: 0px 15px 40px -16px rgba(0,0,0,0.85);
+box-shadow: 0px 15px 40px -16px rgba(0,0,0,0.85);
+}
+
+.calculator {
+height: 300px;
+margin:50px;
+align-self: center;
+border-top: 7px solid hsl(212, 86%, 64%);
+border-radius: 7px;
+-webkit-box-shadow: 0px 15px 40px -16px rgba(0,0,0,0.85);
+box-shadow: 0px 15px 40px -16px rgba(0,0,0,0.85);
+}
+
+.icon {
+  height: 140px;
+}
+
+img {
+  position: relative;
+  left: 300px;
+  top: 40px;
+}
